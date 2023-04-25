@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #f8fafc;
+  --background-box: #ffffff;
+  --box-shadow-color: 0px 4px 32px rgba(15, 23, 42, 0.15);
+  --highlight: #7c3aed;
+
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: var(--background-color);
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background: var(--background-box);
+  box-shadow: var(--box-shadow-color);
+  width: 80rem;
+  padding: 6.4rem 8rem;
+  border-radius: 1.6rem;
+}
+
+.content-top h1 {
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.convert-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.convert-data i {
+  font-size: 2.4rem;
+}
+.imagems {
+  margin: 0 40% 5% 40%;
+}
+.input-convert {
+  display: flex;
+
+  width: 29.2rem;
+  height: 5.6rem;
+
+  border: 0.15rem solid var(--highlight);
+  border-radius: 0.8rem;
+  padding: 1.6rem;
+  overflow: hidden;
+}
+
+.conv-input-r {
+  border: 0.15rem solid #94a3b8;
+}
+
+.input-convert input {
+  border: none;
+  font-size: 1.6rem;
+  background: var(--background-box);
+}
+
+.input-convert input:focus,
+select {
+  outline: 3px solid transparent;
+}
+
+.input-convert .currency {
+  margin-right: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.input-select::before {
+  content: "";
+  border: 1px solid #94a3b8;
+  margin-left: -1.6rem;
+  margin-right: 1.6rem;
+}
+
+.input-select {
+  display: flex;
+  background: #ede9fe;
+
+  height: 5.6rem;
+
+  bottom: 1.7rem;
+  left: -7rem;
+  position: relative;
+
+  padding: 1.6rem;
+}
+
+.input-select .conv-r,
+.conv-r {
+  background: #ede9fe;
+}
+
+.input-select select {
+  margin-left: 0.8rem;
+  background: #ede9fe;
+  border: none;
+
+  font-size: 1.6rem;
+  font-weight: 400;
+  width: 8rem;
+  cursor: pointer;
+}
+
+/* botão */
+.button-convert {
+  margin-top: 40px;
+  border-radius: 8px;
+  width: 270px;
+  background: #7c3aed;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #f9fafb;
+
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+button:hover {
+  background: #a855f7;
+}
