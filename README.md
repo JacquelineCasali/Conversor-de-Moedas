@@ -1,6 +1,7 @@
 <h1 align="center"> Conversor de moedas </h1>
 
-![2023-04-19_171747](https://user-images.githubusercontent.com/103325619/233200993-66d58c67-7a6e-49ca-b281-896f32420546.png)
+
+![2023-04-19_171747](https://user-images.githubusercontent.com/103325619/234358184-27c0e822-2681-4bcf-9aad-a5f9189a3729.png)"
 
 <br>
 
